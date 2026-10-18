@@ -1,0 +1,42 @@
+# Thư viện được cài lại bằng Composer và npm
+/vendor/
+/node_modules/
+
+# Cấu hình môi trường và thông tin bí mật
+.env
+.env.*
+!.env.example
+/auth.json
+/storage/*.key
+
+# Tệp được tạo khi chạy và build
+/public/build/
+/public/hot
+/public/storage
+/storage/logs/*
+/storage/framework/cache/*
+/storage/framework/sessions/*
+/storage/framework/views/*
+/bootstrap/cache/*
+!**/.gitignore
+
+# Cơ sở dữ liệu SQLite cục bộ
+/database/*.sqlite
+/database/*.sqlite-*
+
+# Bộ nhớ đệm kiểm thử
+/.phpunit.cache/
+/.phpunit.result.cache
+
+# Cấu hình trình soạn thảo cá nhân
+/.idea/
+/.vscode/
+
+# Tệp hệ điều hành
+.DS_Store
+Thumbs.db
+
+# Nhật ký công cụ
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
