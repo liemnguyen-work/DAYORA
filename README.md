@@ -125,6 +125,10 @@ Các mục tiêu kiểm thử dự kiến gồm tối thiểu 24 trường hợp
 
 ## 7. Liên kết
 
-- Bảng yêu cầu: REQUIREMENTS.md
-- Kế hoạch: PROJECT_PLAN.md
-- Phân tích website: docs/competitor-analysis.md
+* [Bảng yêu cầu](REQUIREMENTS.md)
+* [Kế hoạch thực hiện](PROJECT_PLAN.md)
+* [Nguyên tắc hỗ trợ AI](AGENTS.md)
+* [Nhật ký sử dụng AI](AI_USAGE_LOG.md)
+* [Phân tích website tham khảo](docs/competitor-analysis.md)
+* [Vai trò người dùng](docs/user-roles.md)
+* [Quy trình nghiệp vụ](docs/business-workflow.md)
